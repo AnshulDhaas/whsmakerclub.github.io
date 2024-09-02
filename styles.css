@@ -384,6 +384,93 @@ body {
     left: 5%;
 }
 
+.memberContainer {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(2,21,38);
+}
+
+.member {
+    display: flex; /* Changed from block to flex */
+    justify-content: space-between; /* Ensure content is spread out */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #333;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.memberDescription {
+    display: inline-block;
+    text-align: left; /* Adjusted text alignment */
+}
+
+.member h1, h2 {
+    color: white;
+}
+
+.profImg {
+    margin-left: auto; /* This pushes the image to the far right */
+}
+
+.profImg img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.member button {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 25px; 
+    border: none; 
+    cursor: pointer; 
+    margin: 4px 2px;
+}
+
+#popup {
+    visibility: hidden;
+    width: 50%;
+    background-color: rgb(12,131,149);
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+    bottom: 30px;
+    right: 30px;
+    font-size: 16px;
+}
+
+#popup.show {
+    visibility: visible;
+    animation: fadeInOut 3s ease-in-out;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
 @media only screen and (max-width: 600px) {
     .navbar {
       margin: 10px 5px 0px 5px;

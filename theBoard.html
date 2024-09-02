@@ -4,20 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Contact Us</title>
+    <link rel="icon" type="image/png" href="images/mc_logo.png">
 </head>
 <body>
     <div class="navbar">
         <div class="mc_logo">
                 <img src="images/mc_logo.png" alt="club_logo">
         </div>
-        <a href="#home">Westmont Maker Club</a>
+        <a href="index.html">Westmont Maker Club</a>
         <div class="navbar-right">
             <a href="theBoard.html">The Board</a>
-            <a href="#about">About Us</a>
             <div class="vertical-line"></div>
-            <button class="get-started-btn">Getting Started</button>
+            <button onclick="openNewTab()" class="get-started-btn">Getting Started</button>
         </div>
     </div>
+    <div id="popup">Email copied to clipboard!</div>
+    <div class="memberContainer">
+        <div class="member">
+            <div class="memberDescription">
+                <h1>Anshul Dhaas</h1>
+                <h2>President</h2>
+                <button onclick="copyEmail1()">Contact</button>
+            </div>
+            <div class="profImg">
+                <img src="images/WIN_20240809_17_24_12_Pro-removebg-preview.png" alt="test">
+            </div>
+        </div>
+        <div class="member">
+            <div class="memberDescription">
+                <h1>Ethan Du</h1>
+                <h2>Co-President</h2>
+                <button onclick="copyEmail2()">Contact</button>
+            </div>
+            <div class="profImg">
+                <img src="images/WIN_20240809_17_24_12_Pro-removebg-preview.png" alt="test">
+            </div>
+        </div>
+        <div class="member">
+            <div class="memberDescription">
+                <h1>Arin Dubey</h1>
+                <h2>Secretary</h2>
+                <button onclick="copyEmail3()">Contact</button>
+            </div>
+            <div class="profImg">
+                <img src="images/WIN_20240809_17_24_12_Pro-removebg-preview.png" alt="test">
+            </div>
+        </div>
+        <div class="member">
+            <div class="memberDescription">
+                <h1>Daniil Yakavets</h1>
+                <h2>Treasurer</h2>
+                <button onclick="copyEmail4()">Contact</button>
+            </div>
+            <div class="profImg">
+                <img src="images/WIN_20240809_17_24_12_Pro-removebg-preview.png" alt="test">
+            </div>
+        </div>
+        <div class="member">
+            <div class="memberDescription">
+                <h1>Juno Belanger</h1>
+                <h2>Project Director</h2>
+                <button onclick="copyEmail5()">Contact</button>
+            </div>
+            <div class="profImg">
+                <img src="images/WIN_20240809_17_24_12_Pro-removebg-preview.png" alt="test">
+            </div>
+        </div>
+    </div>
+    <script src="contact.js"></script>
 </body>
 </html>
