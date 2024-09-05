@@ -1,11 +1,12 @@
 body {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     background-color: rgb(2, 21, 38);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .navbar {
@@ -497,4 +498,24 @@ body {
       flex-direction: column;
       gap: 10px;
     }
+  }
+
+  .ourMissionContainer {
+    margin-top: 45px;
+    background-color: #333;
+    padding: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 8px;
+    box-shadow: black 7px 7px 7px;
+  }
+
+  .ourMissionContainer h1 {
+    color: white;
+    text-align: center;
+  }
+
+  .ourMissionContainer h2 {
+    color: white;
+    text-align: center;
   }

@@ -69,5 +69,5 @@ function copyEmail5() {
 }
 
 function openNewTab() {
-    window.open("https://discord.gg/juHSEPNB", '_blank');
+    window.open("https://discord.gg/S9VmVHcMjF", '_blank');
 }
